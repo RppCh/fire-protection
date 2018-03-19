@@ -1,0 +1,989 @@
+---------------------------------------------------------------
+[ 2018-03-06T15:03:57+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.386000s][吞吐率：2.59req/s] [内存消耗：2,407.17kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '59588f82-bc69-52b0-6364-d52ae4fc9f8c',
+  'postman-token' => '1a7defde-aa71-c25c-f59e-579e85976e79',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=10dbffee33d6efd7bbaaf5ecebeba274',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'qqqq',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:04:44+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.102000s][吞吐率：9.80req/s] [内存消耗：2,422.03kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '8204a706-b11b-7fde-2dc8-7bd3dc3cb2ba',
+  'postman-token' => '5cdf574a-ef07-8e8e-dd0d-5eaeb138a8e1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=10dbffee33d6efd7bbaaf5ecebeba274',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'qqqq',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'qqqq' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user_role` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `r`.`rid`,`r`.`name` FROM `u_user_role` `ur` INNER JOIN `u_role` `r` ON `r`.`rid`=`ur`.`rid` WHERE  `ur`.`uid` = '320023b2eff8881f970867f8304bc72a' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `client` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `u_auth`  SET `s_token`='161526fbfb57c77e8d83ca40c2a94249',`s_update_time`='2018-03-06 15:04:44'  WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `client` = 1 [ RunTime:0.038000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:04:51+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.073000s][吞吐率：13.70req/s] [内存消耗：2,422.03kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => 'f1575979-4b1e-5057-9aff-e76042ec1045',
+  'postman-token' => 'cf9a1db6-f397-e33c-eb80-3570cb038910',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=161526fbfb57c77e8d83ca40c2a94249',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user_role` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `r`.`rid`,`r`.`name` FROM `u_user_role` `ur` INNER JOIN `u_role` `r` ON `r`.`rid`=`ur`.`rid` WHERE  `ur`.`uid` = '320023b2eff8881f970867f8304bc72a' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `client` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] UPDATE `u_auth`  SET `s_token`='d28c72b89ed4f310f42bd4a33e47bc49',`s_update_time`='2018-03-06 15:04:51'  WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `client` = 1 [ RunTime:0.026000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:09:44+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：2,413.94kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '7bb686f8-a425-fcff-3170-2e28bc249eb6',
+  'postman-token' => '85a5f13e-c8bd-44d1-ba2d-bb614b3b6edb',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:09:45+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：2,413.94kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => 'eb19321c-c14e-d2a0-b0b1-83d3542b2f4e',
+  'postman-token' => '074acec6-7a1b-1043-5e7e-7bf35916119a',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:09:45+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：2,413.94kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '09cc83b3-9e0b-8193-ffe5-712df0fd74be',
+  'postman-token' => '12dc0ba6-dde1-27cb-84e3-94f6424a929f',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:12:41+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：2,376.48kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => 'e4b6e03b-c700-d358-07da-3ed1651d09c5',
+  'postman-token' => 'b9735757-533f-cf18-0668-31ebf5d4f445',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:13:17+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,411.92kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => 'a95b8b89-eb6f-7258-1ec1-cd2a9670eb74',
+  'postman-token' => 'fae582f2-51b9-126b-15ac-c7e071aa3d85',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:13:51+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：2,376.47kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => 'dbd1ffec-dbfc-e257-a177-300bacd69de0',
+  'postman-token' => '80abed88-def3-bc99-61a8-6de9329baa50',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:14:34+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.153000s][吞吐率：6.54req/s] [内存消耗：2,393.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '138ec2cb-7d32-5c7b-570b-3d56198b8ae2',
+  'postman-token' => '714ef4a2-9cef-50a6-a4b3-1aa8315b865d',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.002000s ]
+[ error ] [0]variable type error： array[D:\xampp\htdocs\fi_services\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-03-06T15:14:57+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：2,362.11kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '02a5f9e7-d3d0-ffe2-e64a-419a5d452890',
+  'postman-token' => '3a935f13-5a5c-6112-bc7d-c0b28bc29b42',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:15:43+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：2,410.65kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '6a0556f0-4cd8-0a33-ef40-98b6c25db161',
+  'postman-token' => '4f08a363-8d47-ce66-c79e-b08f9385a62c',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.002000s ]
+[ error ] [8]未定义数组索引: QQQQ[D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php:30]
+---------------------------------------------------------------
+[ 2018-03-06T15:16:08+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,362.11kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '6933fbf5-0708-2af2-84a9-c35edc9d6b78',
+  'postman-token' => '966b46c1-da20-b5fd-e038-13e10ba0787b',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:17:35+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,657.95kb] [文件加载：40]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '279758df-f81d-0633-ca23-de8062edb6a6',
+  'postman-token' => 'd22020dd-cf8c-910e-ea16-60c28893c32d',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'else' (T_ELSE)[D:\xampp\htdocs\fi_services\application\improve\model\UserDb.php:157]
+---------------------------------------------------------------
+[ 2018-03-06T15:18:04+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,362.40kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '03290ce1-8cdd-2967-5328-73867a176380',
+  'postman-token' => '127f4bae-0bac-302b-0b6d-c1346768745e',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:21:03+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,385.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => 'b0530d0b-9266-4f96-316f-23eff1e67fae',
+  'postman-token' => 'f2658e12-7d03-32dd-4fed-0c3c5c591cc0',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:21:18+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：2,385.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '1d9b99aa-a59c-663f-577f-630df131ece0',
+  'postman-token' => '888b4361-91f8-101d-ff39-2daf7cc77bdf',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'qqqq',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'qqqq' [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:21:21+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,385.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '5e264aa3-ac31-b1ba-f80e-b0876463565f',
+  'postman-token' => '8b132ebd-11ee-f75a-4169-8c63acb148ab',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'qqqq',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'qqqq' [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:21:31+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：2,385.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '73d0d1d7-e03a-eb11-db0c-76e4454681ca',
+  'postman-token' => 'e0d8debf-676a-c0b5-997e-a04f699ad75c',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'qqqq',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'qqqq' [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:21:31+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：2,385.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => 'b80583e4-d2da-57fd-ed5a-446957ce9b7d',
+  'postman-token' => '1796a64e-368c-b0fc-d57d-44b3d68ced47',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'qqqq',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'qqqq' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:21:32+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：2,385.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '46ccc937-44ea-8324-7121-6315e3236138',
+  'postman-token' => 'ff7769c4-411c-45f4-03cc-4c4bd23ee310',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'qqqq',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'qqqq' [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:21:55+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：2,367.44kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => 'a9b71c4a-cd00-4522-27b8-c15a9172c599',
+  'postman-token' => '5ff23f43-cc7b-7485-bbe9-f3757cf73a63',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'qqqq',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'qqqq' [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user_role` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `r`.`rid`,`r`.`name` FROM `u_user_role` `ur` INNER JOIN `u_role` `r` ON `r`.`rid`=`ur`.`rid` WHERE  `ur`.`uid` = '320023b2eff8881f970867f8304bc72a' [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:22:08+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：2,367.44kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '2f079c20-64e5-c9dc-4bec-96d3dbef7147',
+  'postman-token' => '3161dab5-0f9a-8adf-f14a-ed10229d587a',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'qqqq',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'qqqq' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user_role` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `r`.`rid`,`r`.`name` FROM `u_user_role` `ur` INNER JOIN `u_role` `r` ON `r`.`rid`=`ur`.`rid` WHERE  `ur`.`uid` = '320023b2eff8881f970867f8304bc72a' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:22:21+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.043000s][吞吐率：23.26req/s] [内存消耗：2,385.77kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => 'eadc0e69-8bdb-eb05-e314-8822e25f5b32',
+  'postman-token' => '5e9298b7-f8bf-38a4-27e8-604a071a05ab',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'QQQQ',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'QQQQ' [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-06T15:22:31+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/auth/login
+[ info ] 192.168.6.76/improve/auth/login [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：2,367.44kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '8fc0418d-917f-bb17-ec8e-8de6028eaa81',
+  'postman-token' => '9f40022e-44f0-8b8c-e419-f8562150bdc7',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=d28c72b89ed4f310f42bd4a33e47bc49',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'qqqq',
+  'pwd' => '123456',
+  'client' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\AuthController->login[ D:\xampp\htdocs\fi_services\application\improve\controller\AuthController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `uid`,`account`,`pwd`,`salt`,`region`,`name`,`status` FROM `u_user` WHERE  `account` = 'qqqq' [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user_role` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `r`.`rid`,`r`.`name` FROM `u_user_role` `ur` INNER JOIN `u_role` `r` ON `r`.`rid`=`ur`.`rid` WHERE  `ur`.`uid` = '320023b2eff8881f970867f8304bc72a' [ RunTime:0.002000s ]

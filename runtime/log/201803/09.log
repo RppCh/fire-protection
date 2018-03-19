@@ -1,0 +1,38 @@
+---------------------------------------------------------------
+[ 2018-03-09T14:03:10+08:00 ] 192.168.6.76 192.168.6.76 POST /improve/sample_plot_survey/ls
+[ info ] 192.168.6.76/improve/sample_plot_survey/ls [运行时间：0.634000s][吞吐率：1.58req/s] [内存消耗：2,389.66kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'sample_plot_survey',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.6.76',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+  'x-postman-interceptor-id' => '00cdcbb5-f047-1373-c5a6-0e137bf82bd0',
+  'postman-token' => 'efad25f8-adf9-93fb-e962-1e13b134b516',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=a4ng10ttpf7mnstu6nga0ths11; s_uid=320023b2eff8881f970867f8304bc72a; s_token=8e4f9fb6e2177d035215aa63ff7e8b62',
+)
+[ info ] [ PARAM ] array (
+  'per_page' => 20,
+  'current_page' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\SamplePlotSurveyController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\SamplePlotSurveyController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '8e4f9fb6e2177d035215aa63ff7e8b62' [ RunTime:0.003000s ]

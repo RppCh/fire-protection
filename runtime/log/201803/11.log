@@ -1,0 +1,27 @@
+---------------------------------------------------------------
+[ 2018-03-11T12:08:48+08:00 ] 127.0.0.1 127.0.0.1 GET http://input.shouji.sogou.com/jsp/personalcenter/pcgettime.jsp?h=420DD5E3F849E601ED12A93C3A040EBD&v=8.8.0.1814&r=6991_sogou_pinyin_8.4.0.1039_6991&St=1&Ut=1
+[ info ] input.shouji.sogou.comhttp://input.shouji.sogou.com/jsp/personalcenter/pcgettime.jsp?h=420DD5E3F849E601ED12A93C3A040EBD&v=8.8.0.1814&r=6991_sogou_pinyin_8.4.0.1039_6991&St=1&Ut=1 [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,029.55kb] [文件加载：26]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'jsp',
+    1 => 'personalcenter',
+    2 => 'pcgettime.jsp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'input.shouji.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => '420DD5E3F849E601ED12A93C3A040EBD',
+  'v' => '8.8.0.1814',
+  'r' => '6991_sogou_pinyin_8.4.0.1039_6991',
+  'St' => '1',
+  'Ut' => '1',
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,1712 @@
+---------------------------------------------------------------
+[ 2018-03-12T19:27:04+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.092000s][吞吐率：10.87req/s] [内存消耗：2,457.59kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:26:51',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:27:09+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.097000s][吞吐率：10.31req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:26:56',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:27:14+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.105000s][吞吐率：9.52req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:27:01',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:27:19+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.098000s][吞吐率：10.20req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:27:06',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:27:24+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.091000s][吞吐率：10.99req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:27:11',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:27:29+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.083000s][吞吐率：12.05req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:27:16',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:27:34+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.076000s][吞吐率：13.16req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:27:21',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:27:39+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.089000s][吞吐率：11.24req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:27:26',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:27:44+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.096000s][吞吐率：10.42req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:27:31',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:27:49+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.094000s][吞吐率：10.64req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:27:36',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:27:54+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.100000s][吞吐率：10.00req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:27:41',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:27:59+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.102000s][吞吐率：9.80req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:27:46',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:28:04+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.093000s][吞吐率：10.75req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:27:51',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:28:09+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.090000s][吞吐率：11.11req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:27:56',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:28:14+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.113000s][吞吐率：8.85req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:28:01',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:28:19+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.080000s][吞吐率：12.50req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:28:06',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:28:24+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.092000s][吞吐率：10.87req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:28:11',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:28:29+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.082000s][吞吐率：12.20req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:28:16',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:28:34+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.097000s][吞吐率：10.31req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:28:21',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:28:55+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.112000s][吞吐率：8.93req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:28:42',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:29:01+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.100000s][吞吐率：10.00req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:28:48',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:29:50+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.105000s][吞吐率：9.52req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:29:37',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-12T19:30:04+08:00 ] 192.168.6.76 192.168.6.238 POST /improve/location/location
+[ info ] 192.168.6.76/improve/location/location [运行时间：0.107000s][吞吐率：9.35req/s] [内存消耗：2,457.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'location',
+    2 => 'location',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SM801 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '133',
+  'host' => '192.168.6.76',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'cookie' => 's_uid=320023b2eff8881f970867f8304bc72a; s_token=9f35e2ac5e07b8699608cd85172cb1bf',
+)
+[ info ] [ PARAM ] array (
+  'push_name' => 'caoyu',
+  'position' => '113.018985,28.185304',
+  'town' => '中国',
+  'village' => '芙蓉区',
+  'height' => 0,
+  'time' => '2018-03-12 19:29:51',
+)
+[ info ] [ RUN ] app\improve\controller\LocationController->location[ D:\xampp\htdocs\fi_services\application\improve\controller\LocationController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a'  AND `s_token` = '9f35e2ac5e07b8699608cd85172cb1bf' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `u_user` WHERE  `uid` = '320023b2eff8881f970867f8304bc72a' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_location` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_location` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:15:23+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/village_hand/getPestsType?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/village_hand/getPestsType?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.119000s][吞吐率：8.40req/s] [内存消耗：2,471.93kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'village_hand',
+    2 => 'getPestsType',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+)
+[ info ] [ RUN ] app\improve\controller\VillageHandController->getPestsType[ D:\xampp\htdocs\fi_services\application\improve\controller\VillageHandController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_village_hand` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT DISTINCT p.cn_name,`vh`.`pest_id` FROM `b_village_hand` `vh` LEFT JOIN `b_pests` `p` ON `p`.`id`=`vh`.`pest_id` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:15:24+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/village_hand/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/village_hand/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.079000s][吞吐率：12.66req/s] [内存消耗：2,615.52kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'village_hand',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'per_page' => 16,
+  'current_page' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\VillageHandController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\VillageHandController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_village_hand` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_village_hand` `vh` LEFT JOIN `b_pests` `p` ON `p`.`id`=`vh`.`pest_id` LEFT JOIN `c_region` `r` ON `r`.`id`=`vh`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `u_user` `u` ON `u`.`uid`=`vh`.`adder` LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `vh`.`id`,r.name r1,r2.name r2,`vh`.`hazard_type`,p.cn_name pest_name,`vh`.`pest_id`,`vh`.`hand_method`,`vh`.`create_time`,u.name adder_name FROM `b_village_hand` `vh` LEFT JOIN `b_pests` `p` ON `p`.`id`=`vh`.`pest_id` LEFT JOIN `c_region` `r` ON `r`.`id`=`vh`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `u_user` `u` ON `u`.`uid`=`vh`.`adder` ORDER BY `vh`.`update_time`  desc LIMIT 0,16 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:15:25+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/pests/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/pests/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.113000s][吞吐率：8.85req/s] [内存消耗：2,717.16kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'pests',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '33',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'per_page' => 300,
+  'current_page' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\PestsController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\PestsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_pests` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_pests` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_pests` ORDER BY `update_time`  desc LIMIT 0,300 [ RunTime:0.006000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:15:28+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/village_hand/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/village_hand/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.109000s][吞吐率：9.17req/s] [内存消耗：2,610.31kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'village_hand',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'per_page' => 16,
+  'current_page' => 2,
+)
+[ info ] [ RUN ] app\improve\controller\VillageHandController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\VillageHandController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_village_hand` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_village_hand` `vh` LEFT JOIN `b_pests` `p` ON `p`.`id`=`vh`.`pest_id` LEFT JOIN `c_region` `r` ON `r`.`id`=`vh`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `u_user` `u` ON `u`.`uid`=`vh`.`adder` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `vh`.`id`,r.name r1,r2.name r2,`vh`.`hazard_type`,p.cn_name pest_name,`vh`.`pest_id`,`vh`.`hand_method`,`vh`.`create_time`,u.name adder_name FROM `b_village_hand` `vh` LEFT JOIN `b_pests` `p` ON `p`.`id`=`vh`.`pest_id` LEFT JOIN `c_region` `r` ON `r`.`id`=`vh`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `u_user` `u` ON `u`.`uid`=`vh`.`adder` ORDER BY `vh`.`update_time`  desc LIMIT 16,16 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:37:39+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/pine_pest/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/pine_pest/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.186000s][吞吐率：5.38req/s] [内存消耗：2,584.02kb] [文件加载：50]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'pine_pest',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '76',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'per_page' => 20,
+  'current_page' => 1,
+  'surveyer' => '',
+  'start_time' => '',
+  'end_time' => '',
+)
+[ info ] [ RUN ] app\improve\controller\PinePestController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\PinePestController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_pineline_pest` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_pineline_pest` `plp` LEFT JOIN `u_user` `u1` ON `u1`.`uid`=`plp`.`adder` LEFT JOIN `c_region` `r` ON `r`.`id`=`plp`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `c_region` `r3` ON `r2`.`parentId`=`r3`.`id` LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `plp`.`id`,r.name r1,r2.name r2,r3.name r3,`plp`.`pinewood_area`,`plp`.`survey_area`,`plp`.`dead_pine_num`,`plp`.`pineline_pest`,`plp`.`positions`,u1.name surveyer,`plp`.`create_time` FROM `b_pineline_pest` `plp` LEFT JOIN `u_user` `u1` ON `u1`.`uid`=`plp`.`adder` LEFT JOIN `c_region` `r` ON `r`.`id`=`plp`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `c_region` `r3` ON `r2`.`parentId`=`r3`.`id` ORDER BY `plp`.`update_time`  desc LIMIT 0,20 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:41:12+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/pine_pest/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/pine_pest/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.113000s][吞吐率：8.85req/s] [内存消耗：2,584.02kb] [文件加载：50]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'pine_pest',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '76',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'per_page' => 20,
+  'current_page' => 1,
+  'surveyer' => '',
+  'start_time' => '',
+  'end_time' => '',
+)
+[ info ] [ RUN ] app\improve\controller\PinePestController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\PinePestController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_pineline_pest` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_pineline_pest` `plp` LEFT JOIN `u_user` `u1` ON `u1`.`uid`=`plp`.`adder` LEFT JOIN `c_region` `r` ON `r`.`id`=`plp`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `c_region` `r3` ON `r2`.`parentId`=`r3`.`id` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `plp`.`id`,r.name r1,r2.name r2,r3.name r3,`plp`.`pinewood_area`,`plp`.`survey_area`,`plp`.`dead_pine_num`,`plp`.`pineline_pest`,`plp`.`positions`,u1.name surveyer,`plp`.`create_time` FROM `b_pineline_pest` `plp` LEFT JOIN `u_user` `u1` ON `u1`.`uid`=`plp`.`adder` LEFT JOIN `c_region` `r` ON `r`.`id`=`plp`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `c_region` `r3` ON `r2`.`parentId`=`r3`.`id` ORDER BY `plp`.`update_time`  desc LIMIT 0,20 [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:41:20+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/pine_pest/query?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/pine_pest/query?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.100000s][吞吐率：10.00req/s] [内存消耗：2,488.39kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'pine_pest',
+    2 => 'query',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'id' => 195,
+)
+[ info ] [ RUN ] app\improve\controller\PinePestController->query[ D:\xampp\htdocs\fi_services\application\improve\controller\PinePestController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_pineline_pest` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `plp`.*,r.name r1,r2.name r2,r3.name r3,u.name surveyer FROM `b_pineline_pest` `plp` LEFT JOIN `c_region` `r` ON `r`.`id`=`plp`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `c_region` `r3` ON `r2`.`parentId`=`r3`.`id` LEFT JOIN `u_user` `u` ON `u`.`uid`=`plp`.`adder` WHERE  `plp`.`id` = 195 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_pineline_pest_image` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_pineline_pest_image` WHERE  `pineline_pest_id` = 195 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:41:20+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/common/queryRegion?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/common/queryRegion?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.126000s][吞吐率：7.94req/s] [内存消耗：2,408.45kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'common',
+    2 => 'queryRegion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '24',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'parentId' => '430528105',
+)
+[ info ] [ RUN ] app\improve\controller\CommonController->queryRegion[ D:\xampp\htdocs\fi_services\application\improve\controller\CommonController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `c_region` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT id value,name lable FROM `c_region` WHERE  `parentId` = '430528105' [ RunTime:0.039000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:43:55+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/pine_pest/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/pine_pest/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.101000s][吞吐率：9.90req/s] [内存消耗：2,584.02kb] [文件加载：50]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'pine_pest',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '76',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'per_page' => 20,
+  'current_page' => 1,
+  'surveyer' => '',
+  'start_time' => '',
+  'end_time' => '',
+)
+[ info ] [ RUN ] app\improve\controller\PinePestController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\PinePestController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_pineline_pest` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_pineline_pest` `plp` LEFT JOIN `u_user` `u1` ON `u1`.`uid`=`plp`.`adder` LEFT JOIN `c_region` `r` ON `r`.`id`=`plp`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `c_region` `r3` ON `r2`.`parentId`=`r3`.`id` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `plp`.`id`,r.name r1,r2.name r2,r3.name r3,`plp`.`pinewood_area`,`plp`.`survey_area`,`plp`.`dead_pine_num`,`plp`.`pineline_pest`,`plp`.`positions`,u1.name surveyer,`plp`.`create_time` FROM `b_pineline_pest` `plp` LEFT JOIN `u_user` `u1` ON `u1`.`uid`=`plp`.`adder` LEFT JOIN `c_region` `r` ON `r`.`id`=`plp`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `c_region` `r3` ON `r2`.`parentId`=`r3`.`id` ORDER BY `plp`.`update_time`  desc LIMIT 0,20 [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:44:12+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/village_hand/getPestsType?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/village_hand/getPestsType?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.099000s][吞吐率：10.10req/s] [内存消耗：2,471.93kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'village_hand',
+    2 => 'getPestsType',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+)
+[ info ] [ RUN ] app\improve\controller\VillageHandController->getPestsType[ D:\xampp\htdocs\fi_services\application\improve\controller\VillageHandController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_village_hand` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT DISTINCT p.cn_name,`vh`.`pest_id` FROM `b_village_hand` `vh` LEFT JOIN `b_pests` `p` ON `p`.`id`=`vh`.`pest_id` [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:44:12+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/pests/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/pests/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.088000s][吞吐率：11.36req/s] [内存消耗：2,566.87kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'pests',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'per_page' => 300,
+  'current_page' => 1,
+  'is_localed' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\PestsController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\PestsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_pests` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_pests` WHERE  `is_localed` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_pests` WHERE  `is_localed` = 1 ORDER BY `update_time`  desc LIMIT 0,300 [ RunTime:0.005000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:44:14+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/plant/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/plant/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：2,548.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'plant',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '47',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'per_page' => 20,
+  'current_page' => 1,
+  'is_localed' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\PlantController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\PlantController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_plant` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_plant` WHERE  `is_localed` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_plant` WHERE  `is_localed` = 1 ORDER BY `update_time`  desc LIMIT 0,20 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:44:14+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/pests/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/pests/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.091000s][吞吐率：10.99req/s] [内存消耗：2,566.87kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'pests',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'per_page' => 300,
+  'current_page' => 1,
+  'is_localed' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\PestsController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\PestsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_pests` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_pests` WHERE  `is_localed` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_pests` WHERE  `is_localed` = 1 ORDER BY `update_time`  desc LIMIT 0,300 [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:44:14+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/pests/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/pests/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.093000s][吞吐率：10.75req/s] [内存消耗：2,566.87kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'pests',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'per_page' => 300,
+  'current_page' => 1,
+  'is_localed' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\PestsController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\PestsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_pests` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_pests` WHERE  `is_localed` = 1 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_pests` WHERE  `is_localed` = 1 ORDER BY `update_time`  desc LIMIT 0,300 [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:44:14+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/plant/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/plant/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.092000s][吞吐率：10.87req/s] [内存消耗：2,548.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'plant',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '47',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'per_page' => 20,
+  'current_page' => 1,
+  'is_localed' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\PlantController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\PlantController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_plant` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_plant` WHERE  `is_localed` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `b_plant` WHERE  `is_localed` = 1 ORDER BY `update_time`  desc LIMIT 0,20 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:44:14+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/regularly/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/regularly/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.133000s][吞吐率：7.52req/s] [内存消耗：2,557.01kb] [文件加载：50]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'regularly',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'per_page' => 20,
+  'current_page' => 1,
+)
+[ info ] [ RUN ] app\improve\controller\RegularlyController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\RegularlyController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_regularly` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_regularly` `plp` LEFT JOIN `c_region` `r` ON `r`.`id`=`plp`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `c_region` `r3` ON `r2`.`parentId`=`r3`.`id` LEFT JOIN `b_pests` `p` ON `p`.`id`=`plp`.`pests` LEFT JOIN `b_plant` `p2` ON `p2`.`id`=`plp`.`plant` WHERE  `plp`.`state` = 2 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `plp`.*,r.name r1,r2.name r2,r3.name r3,p.cn_name pests_name,p2.cn_name plant_name FROM `b_regularly` `plp` LEFT JOIN `c_region` `r` ON `r`.`id`=`plp`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `c_region` `r3` ON `r2`.`parentId`=`r3`.`id` LEFT JOIN `b_pests` `p` ON `p`.`id`=`plp`.`pests` LEFT JOIN `b_plant` `p2` ON `p2`.`id`=`plp`.`plant` WHERE  `plp`.`state` = 2 ORDER BY `plp`.`update_time`  desc LIMIT 0,20 [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2018-03-12T20:44:19+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/pine_pest/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95
+[ info ] 192.168.6.76/improve/pine_pest/ls?s_uid=534870a5d7841a70323fca33833e4060&s_token=ae1c9d2400767648c59bb239b3eb5e95 [运行时间：0.097000s][吞吐率：10.31req/s] [内存消耗：2,584.02kb] [文件加载：50]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'pine_pest',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '76',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  's_uid' => '534870a5d7841a70323fca33833e4060',
+  's_token' => 'ae1c9d2400767648c59bb239b3eb5e95',
+  'per_page' => 20,
+  'current_page' => 1,
+  'surveyer' => '',
+  'start_time' => '',
+  'end_time' => '',
+)
+[ info ] [ RUN ] app\improve\controller\PinePestController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\PinePestController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_pineline_pest` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_pineline_pest` `plp` LEFT JOIN `u_user` `u1` ON `u1`.`uid`=`plp`.`adder` LEFT JOIN `c_region` `r` ON `r`.`id`=`plp`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `c_region` `r3` ON `r2`.`parentId`=`r3`.`id` LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `plp`.`id`,r.name r1,r2.name r2,r3.name r3,`plp`.`pinewood_area`,`plp`.`survey_area`,`plp`.`dead_pine_num`,`plp`.`pineline_pest`,`plp`.`positions`,u1.name surveyer,`plp`.`create_time` FROM `b_pineline_pest` `plp` LEFT JOIN `u_user` `u1` ON `u1`.`uid`=`plp`.`adder` LEFT JOIN `c_region` `r` ON `r`.`id`=`plp`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `c_region` `r3` ON `r2`.`parentId`=`r3`.`id` ORDER BY `plp`.`update_time`  desc LIMIT 0,20 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-12T21:15:28+08:00 ] 192.168.6.76 192.168.6.10 POST /improve/pine_pest/ls
+[ info ] 192.168.6.76/improve/pine_pest/ls [运行时间：0.108000s][吞吐率：9.26req/s] [内存消耗：2,583.52kb] [文件加载：50]
+[ info ] [ LANG ] D:\xampp\htdocs\fi_services\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'improve',
+    1 => 'pine_pest',
+    2 => 'ls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's_uid=534870a5d7841a70323fca33833e4060; s_token=ae1c9d2400767648c59bb239b3eb5e95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:81/',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'origin' => 'http://localhost:81',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '76',
+  'connection' => 'close',
+  'host' => '192.168.6.76',
+)
+[ info ] [ PARAM ] array (
+  'per_page' => 20,
+  'current_page' => 1,
+  'surveyer' => '',
+  'start_time' => '',
+  'end_time' => '',
+)
+[ info ] [ RUN ] app\improve\controller\PinePestController->ls[ D:\xampp\htdocs\fi_services\application\improve\controller\PinePestController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=fi;host=192.168.6.124;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `u_auth` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `s_update_time` FROM `u_auth` WHERE  `uid` = '534870a5d7841a70323fca33833e4060'  AND `s_token` = 'ae1c9d2400767648c59bb239b3eb5e95' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `b_pineline_pest` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `b_pineline_pest` `plp` LEFT JOIN `u_user` `u1` ON `u1`.`uid`=`plp`.`adder` LEFT JOIN `c_region` `r` ON `r`.`id`=`plp`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `c_region` `r3` ON `r2`.`parentId`=`r3`.`id` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `plp`.`id`,r.name r1,r2.name r2,r3.name r3,`plp`.`pinewood_area`,`plp`.`survey_area`,`plp`.`dead_pine_num`,`plp`.`pineline_pest`,`plp`.`positions`,u1.name surveyer,`plp`.`create_time` FROM `b_pineline_pest` `plp` LEFT JOIN `u_user` `u1` ON `u1`.`uid`=`plp`.`adder` LEFT JOIN `c_region` `r` ON `r`.`id`=`plp`.`region` LEFT JOIN `c_region` `r2` ON `r`.`parentId`=`r2`.`id` LEFT JOIN `c_region` `r3` ON `r2`.`parentId`=`r3`.`id` ORDER BY `plp`.`update_time`  desc LIMIT 0,20 [ RunTime:0.003000s ]
